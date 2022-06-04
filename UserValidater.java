@@ -14,7 +14,7 @@ public class UserValidater {
 	@Test
 	public void givenEmailAddress() {
 		UserValidater validater = new UserValidater();
-		boolean result = validater.validateEmail("nikithachimmula@gmail.com");
+		boolean result = validater.validateEmail("nikitha.chimmula@gmail.com");
 		Assert.assertEquals(true, result);
 	}
 
